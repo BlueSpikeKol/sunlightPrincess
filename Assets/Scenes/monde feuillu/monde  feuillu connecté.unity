@@ -43460,6 +43460,15 @@ Prefab:
       propertyPath: actions.Array.data[0].message
       value: 1 droite principal
       objectReference: {fileID: 0}
+    - target: {fileID: 1874913057379256, guid: bff7b798c2f3dd14389b41bbde3bf608, type: 2}
+      propertyPath: m_Name
+      value: route bas
+      objectReference: {fileID: 0}
+    - target: {fileID: 114506073074137472, guid: bff7b798c2f3dd14389b41bbde3bf608,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114225555648736978, guid: bff7b798c2f3dd14389b41bbde3bf608, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: bff7b798c2f3dd14389b41bbde3bf608, type: 2}
@@ -63115,27 +63124,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
---- !u!1 &1793429911 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1526424509596688, guid: bff7b798c2f3dd14389b41bbde3bf608,
-    type: 2}
-  m_PrefabInternal: {fileID: 1237582510}
---- !u!114 &1793429913
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1793429911}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62eb98c1315364225b2579772005cd23, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  receivers: []
-  oneShot: 0
-  autoLeaveTime: 0
-  requiredComponent: {fileID: 0}
-  radius: 1
 --- !u!1 &1795506328
 GameObject:
   m_ObjectHideFlags: 0
