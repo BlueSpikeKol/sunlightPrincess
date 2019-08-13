@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 11423278}
   - component: {fileID: 6123278}
   - component: {fileID: 5023278}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: EnemySnail_CollectBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29,7 +29,7 @@ GameObject:
   - component: {fileID: 11437772}
   - component: {fileID: 6137790}
   - component: {fileID: 5037790}
-  m_Layer: 11
+  m_Layer: 8
   m_Name: EnemySnail_Hazard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48,7 +48,7 @@ GameObject:
   - component: {fileID: 9537792}
   - component: {fileID: 11437774}
   - component: {fileID: 11437776}
-  m_Layer: 11
+  m_Layer: 8
   m_Name: EnemySnail_Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -66,7 +66,7 @@ GameObject:
   - component: {fileID: 11437778}
   - component: {fileID: 6137792}
   - component: {fileID: 5037792}
-  m_Layer: 11
+  m_Layer: 8
   m_Name: EnemySnail_HurtBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -88,7 +88,7 @@ GameObject:
   - component: {fileID: 11437792}
   - component: {fileID: 11437786}
   - component: {fileID: 11437780}
-  m_Layer: 11
+  m_Layer: 8
   m_Name: Ennemi - Koopa Chargeur
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -544,7 +544,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1858336909
-  m_SortingLayer: 2
+  m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 21300018, guid: ee5349d8f98120b40842d7048ae1d5db, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

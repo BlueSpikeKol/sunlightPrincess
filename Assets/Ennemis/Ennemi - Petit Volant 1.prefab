@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 11477024}
   - component: {fileID: 6177032}
   - component: {fileID: 5077032}
-  m_Layer: 11
+  m_Layer: 8
   m_Name: EnemyFly_HurtBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29,7 +29,7 @@ GameObject:
   - component: {fileID: 21277034}
   - component: {fileID: 9577034}
   - component: {fileID: 11477026}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: EnemyFly_Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47,7 +47,7 @@ GameObject:
   - component: {fileID: 11477028}
   - component: {fileID: 6177034}
   - component: {fileID: 5077034}
-  m_Layer: 11
+  m_Layer: 8
   m_Name: EnemyFly_Hazard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -65,7 +65,7 @@ GameObject:
   - component: {fileID: 11477030}
   - component: {fileID: 11477032}
   - component: {fileID: 11477034}
-  m_Layer: 11
+  m_Layer: 8
   m_Name: Ennemi - Petit Volant 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -366,7 +366,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1858336909
-  m_SortingLayer: 2
+  m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 21300016, guid: e3a891105c41de542bf3fb50b331b678, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
