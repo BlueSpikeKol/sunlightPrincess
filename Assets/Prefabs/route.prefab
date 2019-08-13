@@ -53,6 +53,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4452393322729876}
   - component: {fileID: 114225555648736978}
+  - component: {fileID: 114506073074137472}
   m_Layer: 0
   m_Name: On Trigger Enter
   m_TagString: Untagged
@@ -366,6 +367,22 @@ MonoBehaviour:
   buttonStateFilter: 0
   stringFilter: 
   intFilter: 0
+--- !u!114 &114506073074137472
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1526424509596688}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62eb98c1315364225b2579772005cd23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  receivers: []
+  oneShot: 0
+  autoLeaveTime: 0
+  requiredComponent: {fileID: 0}
+  radius: 1
 --- !u!114 &114687136795319334
 MonoBehaviour:
   m_ObjectHideFlags: 1
