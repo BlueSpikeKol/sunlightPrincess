@@ -74,29 +74,10 @@ namespace Assets.Scripts
             Debug.Log("Saved to disk: " + _playerInfoFilePath );
         }
 
-        /*
-         *     public void Load()
-    {
-        if (File.Exists(_playerInfoFilePath))
-        {
-            BinaryFormatter bf = new BinaryFormatter();
-            FileStream file = new FileStream(_playerInfoFilePath, FileMode.Open);
+        
+            
 
-            PlayerData data = (PlayerData) bf.Deserialize(file);
-            file.Close();
-
-            if (true)
-            {
-                _charHealth.ResetSaveData();
-            }
-            else
-            {
-                _charHealth.ApplySaveData(data);
-            }        
-        }
-    }
-
-         */
+         
     }
 
     [Serializable]
