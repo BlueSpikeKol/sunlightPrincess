@@ -6,7 +6,7 @@ using System.Runtime.Serialization.Formatters.Binary;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class restoreSave : MonoBehaviour
+public class RestoreSave : MonoBehaviour
 {
     private string _playerInfoFilePath;
 
@@ -23,9 +23,16 @@ public class restoreSave : MonoBehaviour
             PlayerData data = (PlayerData)bf.Deserialize(file);
             file.Close();
             SceneManager.LoadScene(data.scene);
+            
+
+          
             //todo: play animation continue game
 
 
         }
+
+
     }
+
+   
 }

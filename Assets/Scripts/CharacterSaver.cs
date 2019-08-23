@@ -22,7 +22,7 @@ namespace Assets.Scripts
             SavePlayerData();
         }
 
-        private void SavePlayerData()
+        protected void SavePlayerData()
         {
             PlayerData data = new PlayerData();
 
