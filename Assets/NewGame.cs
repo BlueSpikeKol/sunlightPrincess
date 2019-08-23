@@ -9,23 +9,19 @@ using UnityEngine.SceneManagement;
 namespace Assets.Scripts
 {
     // 
-    public class NewGame : CharacterSaver
+    public class NewGame : MonoBehaviour
     {
-        private void DebuterJeu()
+        public static bool newGame;
+        
+        public void DebuterJeu()
         {
             SceneManager.LoadScene("chateau tournesol");
-            var player = gameObject;
-            player.transform.position = new Vector3();
-
-
+            newGame = true ;
         }
 
 
-
-
-
-
     }
+
 }
     
     
