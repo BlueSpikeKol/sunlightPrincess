@@ -10,6 +10,8 @@ public class RestoreSave : MonoBehaviour
 {
     private string _playerInfoFilePath;
 
+    
+
     public void Load()
     {
         _playerInfoFilePath = Application.persistentDataPath + "/playerInfo.dat";
@@ -23,6 +25,9 @@ public class RestoreSave : MonoBehaviour
             PlayerData data = (PlayerData)bf.Deserialize(file);
             file.Close();
             SceneManager.LoadScene(data.scene);
+            
+ 
+
             
 
           

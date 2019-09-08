@@ -18,6 +18,9 @@ EditorBuildSettings:
     path: Assets/Scenes/monde feuillu/partie 1(gauche).unity
     guid: fb0c270e432daa14faf8486eff189e71
   - enabled: 1
+    path: Assets/Scenes/monde feuillu/partie 2(droite).unity
+    guid: 56a17ef7cf2a25d4cad0f39338456984
+  - enabled: 1
     path: Assets/Scenes/monde feuillu/partie 3 fin(droite).unity
     guid: 9c323ffbe6374684d8114dbdba0a1395
   - enabled: 1
@@ -32,9 +35,6 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/Scenes/tournesol/march\xE9 tournesol.unity"
     guid: 64d0135eb13532547b534124d029616c
-  - enabled: 1
-    path: Assets/Scenes/tournesol/partie 2(droite).unity
-    guid: 56a17ef7cf2a25d4cad0f39338456984
   - enabled: 1
     path: Assets/Scenes/monde marrons/1 droite principal.unity
     guid: e26368136ed7d924cbb7bf150652d733

@@ -7,10 +7,12 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using PlatformerPro;
 
+
 public class CharacterRestorer : MonoBehaviour {
     private string _playerInfoFilePath;
-    // Use this for initialization
+
     void Start () {
+       
 
         StartCoroutine(RestorePosition());
     
@@ -24,6 +26,12 @@ public class CharacterRestorer : MonoBehaviour {
 
         PlayerData data = (PlayerData)bf.Deserialize(file);
         file.Close();
+
+        //|if (data.scene != SceneManager.GetActiveScene())
+        //{
+          //  SceneManager.LoadScene(data.scene);
+       // }
+
         var player = gameObject;
         player.transform.position = data.position;
         ItemManager itemManager = player.GetComponent<ItemManager>();
