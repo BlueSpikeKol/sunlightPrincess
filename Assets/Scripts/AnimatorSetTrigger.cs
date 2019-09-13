@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class AnimatorSetTrigger : MonoBehaviour {
     public Animator animator;
+    
 
     // Use this for initialization
     void Start () {

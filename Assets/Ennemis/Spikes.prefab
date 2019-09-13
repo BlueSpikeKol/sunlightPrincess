@@ -9,7 +9,7 @@ GameObject:
   m_Component:
   - component: {fileID: 413820}
   - component: {fileID: 6116814}
-  - component: {fileID: 114000012066141808}
+  - component: {fileID: 114287281521594436}
   m_Layer: 11
   m_Name: Spikes
   m_TagString: Untagged
@@ -96,7 +96,7 @@ Transform:
   m_Father: {fileID: 413820}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &114000012066141808
+--- !u!114 &114287281521594436
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -104,7 +104,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 183836}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f94d6caf23d646ac89835c47e06d503, type: 3}
+  m_Script: {fileID: 11500000, guid: 37697ce4a8c8f2140b8a500f8cd24695, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   damageAmount: 1
@@ -112,6 +112,9 @@ MonoBehaviour:
   oneShot: 0
   damageCharacters: 1
   damageEnemies: 0
+  Character: {fileID: 0}
+  Respawner: {fileID: 0}
+  animator: {fileID: 0}
 --- !u!212 &212000014072548098
 SpriteRenderer:
   m_ObjectHideFlags: 1
