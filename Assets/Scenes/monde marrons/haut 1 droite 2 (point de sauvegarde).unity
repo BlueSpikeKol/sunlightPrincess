@@ -3560,7 +3560,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010868810644, guid: e3e892ca8b1ca6c4eb3da52685bef40c, type: 2}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 114000011602924210, guid: e3e892ca8b1ca6c4eb3da52685bef40c,
         type: 2}
@@ -14130,7 +14130,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4344218386904172, guid: bff7b798c2f3dd14389b41bbde3bf608, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1874913057379256, guid: bff7b798c2f3dd14389b41bbde3bf608, type: 2}
       propertyPath: m_Name
@@ -18356,7 +18356,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 492346, guid: 5e056a8fa143ca847a44488ec3615fe5, type: 2}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 11445766, guid: 5e056a8fa143ca847a44488ec3615fe5, type: 2}
       propertyPath: CameraTargets.Array.data[0].TargetTransform
@@ -18880,6 +18880,11 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1 &959358569 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1484354541911994, guid: ab112fc515f88d54abc0b67f666b6b61,
+    type: 2}
+  m_PrefabInternal: {fileID: 1057844326}
 --- !u!1 &964347564
 GameObject:
   m_ObjectHideFlags: 0
@@ -20949,6 +20954,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 114357817018057382, guid: ab112fc515f88d54abc0b67f666b6b61,
+        type: 2}
+      propertyPath: deathActions.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4362658596689850, guid: ab112fc515f88d54abc0b67f666b6b61, type: 2}
       propertyPath: m_LocalPosition.x
       value: -8.46386
@@ -20979,9 +20989,32 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4362658596689850, guid: ab112fc515f88d54abc0b67f666b6b61, type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 114357817018057382, guid: ab112fc515f88d54abc0b67f666b6b61,
+        type: 2}
+      propertyPath: deathActions.Array.data[1].actionType
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 114357817018057382, guid: ab112fc515f88d54abc0b67f666b6b61,
+        type: 2}
+      propertyPath: deathActions.Array.data[1].delay
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114357817018057382, guid: ab112fc515f88d54abc0b67f666b6b61,
+        type: 2}
+      propertyPath: deathActions.Array.data[1].supportingData
+      value: SaveHealth
+      objectReference: {fileID: 0}
+    - target: {fileID: 114510377496059266, guid: ab112fc515f88d54abc0b67f666b6b61,
+        type: 2}
+      propertyPath: collectibleItems.Array.data[0].startingCount
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 114008359731577058, guid: ab112fc515f88d54abc0b67f666b6b61, type: 2}
+    - {fileID: 0}
+    - {fileID: 0}
   m_ParentPrefab: {fileID: 100100000, guid: ab112fc515f88d54abc0b67f666b6b61, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &1060175584
@@ -22640,9 +22673,16 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4073332960761930, guid: 4c2f3ee80cd5a334680cbfb9af814f57, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 114581216716755700, guid: 4c2f3ee80cd5a334680cbfb9af814f57,
+        type: 2}
+      propertyPath: oneShot
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 114083905873186376, guid: 4c2f3ee80cd5a334680cbfb9af814f57, type: 2}
+    - {fileID: 114268952715203116, guid: 4c2f3ee80cd5a334680cbfb9af814f57, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 4c2f3ee80cd5a334680cbfb9af814f57, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &1184725760
@@ -31738,6 +31778,56 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1 &1810934236 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1928153929393932, guid: 4c2f3ee80cd5a334680cbfb9af814f57,
+    type: 2}
+  m_PrefabInternal: {fileID: 1181438912}
+--- !u!114 &1810934240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1810934236}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f129e4b454b467642804c936e31de564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 959358569}
+--- !u!114 &1810934241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1810934236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19828f026eccf430d94f244b4c470879, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sender: {fileID: 1810934236}
+  typeName: ProximityTrigger
+  eventName: TriggerEntered
+  actions:
+  - responseType: 4
+    delay: 0
+    targetGameObject: {fileID: 0}
+    targetComponent: {fileID: 1810934240}
+    message: 
+    overrideState: 
+    newSprite: {fileID: 0}
+    animationState: 0
+    intValue: 0
+    vectorValue: {x: 0, y: 0}
+    boolValue: 0
+    floatValue: 0
+    damageType: 0
+  animationStateFilter: 0
+  damageTypeFilter: 0
+  buttonStateFilter: 0
+  stringFilter: 
+  intFilter: 0
 --- !u!1 &1812059794
 GameObject:
   m_ObjectHideFlags: 0

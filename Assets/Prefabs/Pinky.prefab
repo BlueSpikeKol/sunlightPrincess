@@ -121,8 +121,8 @@ GameObject:
   - component: {fileID: 114411973620236196}
   - component: {fileID: 114522692005612024}
   - component: {fileID: 114241271048319924}
-  - component: {fileID: 114011894094477862}
   - component: {fileID: 114177653930935104}
+  - component: {fileID: 114601672609057744}
   m_Layer: 10
   m_Name: Movements
   m_TagString: Untagged
@@ -281,7 +281,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.9, y: 1.3}
+  m_Size: {x: 0.85, y: 1.3}
   m_EdgeRadius: 0
 --- !u!95 &95563199347812468
 Animator:
@@ -312,139 +312,6 @@ MonoBehaviour:
   m_Script: {fileID: 0}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &114011894094477862
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1963970782040260}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 04f35f09f495445f4be00da147e6406c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  movementType: AirMovement_Digital
-  movementData:
-  - floatValue: 7
-    intValue: 0
-    stringValue: 
-    boolValue: 0
-    vector2Value: {x: 0, y: 0}
-    gameObjectValue: {fileID: 0}
-    curveValue:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-  - floatValue: 2.5
-    intValue: 0
-    stringValue: 
-    boolValue: 0
-    vector2Value: {x: 0, y: 0}
-    gameObjectValue: {fileID: 0}
-    curveValue:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-  - floatValue: 0
-    intValue: 0
-    stringValue: 
-    boolValue: 0
-    vector2Value: {x: 0, y: 0}
-    gameObjectValue: {fileID: 0}
-    curveValue:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-  - floatValue: 0
-    intValue: 0
-    stringValue: 
-    boolValue: 0
-    vector2Value: {x: 0, y: 0}
-    gameObjectValue: {fileID: 0}
-    curveValue:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-  - floatValue: 1
-    intValue: 0
-    stringValue: 
-    boolValue: 0
-    vector2Value: {x: 0, y: 0}
-    gameObjectValue: {fileID: 0}
-    curveValue:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-  - floatValue: 0.1
-    intValue: 0
-    stringValue: 
-    boolValue: 0
-    vector2Value: {x: 0, y: 0}
-    gameObjectValue: {fileID: 0}
-    curveValue:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-  - floatValue: 0
-    intValue: 0
-    stringValue: 
-    boolValue: 1
-    vector2Value: {x: 0, y: 0}
-    gameObjectValue: {fileID: 0}
-    curveValue:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-  - floatValue: 2
-    intValue: 0
-    stringValue: 
-    boolValue: 0
-    vector2Value: {x: 0, y: 0}
-    gameObjectValue: {fileID: 0}
-    curveValue:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-  - floatValue: 0
-    intValue: 0
-    stringValue: 
-    boolValue: 0
-    vector2Value: {x: 0, y: 0}
-    gameObjectValue: {fileID: 0}
-    curveValue:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-  - floatValue: 0
-    intValue: 2
-    stringValue: 
-    boolValue: 0
-    vector2Value: {x: 0, y: 0}
-    gameObjectValue: {fileID: 0}
-    curveValue:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
 --- !u!114 &114086244716919814
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1154,6 +1021,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemType: Coin
   threshold: 100
+--- !u!114 &114601672609057744
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1963970782040260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf732977a4ae749d6b2dff217a54c706, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementType: 
+  movementData: []
+  airSpeed: 6
+  minJumpHeight: 0.5
+  maxJumpHeight: 4
+  maxJumpAccelerationTime: 0.25
+  relativeJumpGravity: 10
+  groundedLeeway: 0
+  jumpWhenButtonHeld: 0
+  canDoubleJump: 0
+  doubleJumpHeight: 0
 --- !u!114 &114623591056604192
 MonoBehaviour:
   m_ObjectHideFlags: 1
