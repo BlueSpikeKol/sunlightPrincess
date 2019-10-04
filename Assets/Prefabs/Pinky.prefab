@@ -1036,9 +1036,9 @@ MonoBehaviour:
   movementData: []
   airSpeed: 6
   minJumpHeight: 0.5
-  maxJumpHeight: 4
-  maxJumpAccelerationTime: 0.25
-  relativeJumpGravity: 10
+  maxJumpHeight: 3.5
+  maxJumpAccelerationTime: 0.2
+  relativeJumpGravity: 3
   groundedLeeway: 0
   jumpWhenButtonHeld: 0
   canDoubleJump: 0
