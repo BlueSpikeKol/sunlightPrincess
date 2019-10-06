@@ -4787,6 +4787,23 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e3e892ca8b1ca6c4eb3da52685bef40c, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &159962352 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1000013582631690, guid: e3e892ca8b1ca6c4eb3da52685bef40c,
+    type: 2}
+  m_PrefabInternal: {fileID: 159962351}
+--- !u!114 &159962353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 159962352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a5c82a8395f1d14d88f36df8d485827, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelName: 
 --- !u!1 &161450477
 GameObject:
   m_ObjectHideFlags: 0
@@ -21927,6 +21944,23 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1 &654866287 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1000010470526164, guid: e3e892ca8b1ca6c4eb3da52685bef40c,
+    type: 2}
+  m_PrefabInternal: {fileID: 159962351}
+--- !u!114 &654866288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 654866287}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a5c82a8395f1d14d88f36df8d485827, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelName: 
 --- !u!1 &655856120
 GameObject:
   m_ObjectHideFlags: 0
