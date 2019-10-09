@@ -6419,6 +6419,33 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e3e892ca8b1ca6c4eb3da52685bef40c, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &159962352 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1000010470526164, guid: e3e892ca8b1ca6c4eb3da52685bef40c,
+    type: 2}
+  m_PrefabInternal: {fileID: 159962351}
+--- !u!114 &159962353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 159962352}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fe2df6dfdccd60479f03f36c72ea3e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &159962354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 159962352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a5c82a8395f1d14d88f36df8d485827, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &161794512
 GameObject:
   m_ObjectHideFlags: 0
@@ -49845,9 +49872,33 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 1000011847285234, guid: 58d039d64f406644b97f3b7f84f957f4, type: 2}
+      propertyPath: m_Name
+      value: RespawnPoint principal
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 114000013487538154, guid: 58d039d64f406644b97f3b7f84f957f4, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 58d039d64f406644b97f3b7f84f957f4, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1400733112 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1000011847285234, guid: 58d039d64f406644b97f3b7f84f957f4,
+    type: 2}
+  m_PrefabInternal: {fileID: 1400733111}
+--- !u!114 &1400733113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1400733112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 157df68d8c396a345b12047385719db2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDefaultStartingPoint: 1
+  identifier: tournesol royaume
+  direction: null
 --- !u!1 &1403564675
 GameObject:
   m_ObjectHideFlags: 0
