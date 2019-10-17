@@ -21100,7 +21100,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4000012713317194, guid: 58d039d64f406644b97f3b7f84f957f4, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 24.78
+      value: 25.04
       objectReference: {fileID: 0}
     - target: {fileID: 4000012713317194, guid: 58d039d64f406644b97f3b7f84f957f4, type: 2}
       propertyPath: m_LocalPosition.y
@@ -21162,6 +21162,52 @@ MonoBehaviour:
   isDefaultStartingPoint: 1
   identifier: haut 1 droite 2 (point de sauvegarde)
   direction: left
+--- !u!1 &379212971 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 127262, guid: 5e056a8fa143ca847a44488ec3615fe5, type: 2}
+  m_PrefabInternal: {fileID: 937829434}
+--- !u!114 &379212972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 379212971}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6903f12ac8ae44a41ba2a44700ec60ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ProCamera2D: {fileID: 379212973}
+  UseNumericBoundaries: 1
+  UseTopBoundary: 1
+  TopBoundary: 45
+  TargetTopBoundary: 0
+  UseBottomBoundary: 1
+  BottomBoundary: -5
+  TargetBottomBoundary: 0
+  UseLeftBoundary: 1
+  LeftBoundary: -11
+  TargetLeftBoundary: 0
+  UseRightBoundary: 1
+  RightBoundary: 20.7
+  TargetRightBoundary: 0
+  IsCameraPositionHorizontallyBounded: 0
+  IsCameraPositionVerticallyBounded: 0
+  CurrentBoundariesTrigger: {fileID: 0}
+  HasFiredTransitionStarted: 0
+  HasFiredTransitionFinished: 0
+  UseElasticBoundaries: 0
+  HorizontalElasticityDuration: 0.5
+  HorizontalElasticitySize: 2
+  VerticalElasticityDuration: 0.5
+  VerticalElasticitySize: 2
+  ElasticityEaseType: 0
+--- !u!114 &379212973 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11445766, guid: 5e056a8fa143ca847a44488ec3615fe5,
+    type: 2}
+  m_PrefabInternal: {fileID: 937829434}
+  m_Script: {fileID: 11500000, guid: 8b8c96e2cdc154e848a3d9fe62464d42, type: 3}
 --- !u!1 &380566246
 GameObject:
   m_ObjectHideFlags: 0
@@ -48086,6 +48132,11 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: movementData.Array.data[3].floatValue
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114601672609057744, guid: ab112fc515f88d54abc0b67f666b6b61,
+        type: 2}
+      propertyPath: maxJumpHeight
+      value: 3.5
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}

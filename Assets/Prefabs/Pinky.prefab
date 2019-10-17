@@ -1034,9 +1034,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movementType: 
   movementData: []
-  airSpeed: 6
+  airSpeed: 7
   minJumpHeight: 0.5
-  maxJumpHeight: 3.5
+  maxJumpHeight: 4
   maxJumpAccelerationTime: 0.2
   relativeJumpGravity: 3
   groundedLeeway: 0

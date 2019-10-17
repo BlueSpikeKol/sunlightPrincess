@@ -3,8 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using PlatformerPro;
 
-public class SautSimple : AirMovement, IFlippableGravityMovement
+public class SautSimple : MonoBehaviour
 {
+    public 
+
+
 
 	// Use this for initialization
 	void Start () {
