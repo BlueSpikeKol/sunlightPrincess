@@ -21100,11 +21100,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4000012713317194, guid: 58d039d64f406644b97f3b7f84f957f4, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 25.04
+      value: 24.57
       objectReference: {fileID: 0}
     - target: {fileID: 4000012713317194, guid: 58d039d64f406644b97f3b7f84f957f4, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 7.63
+      value: 8.35
       objectReference: {fileID: 0}
     - target: {fileID: 4000012713317194, guid: 58d039d64f406644b97f3b7f84f957f4, type: 2}
       propertyPath: m_LocalPosition.z
@@ -21162,6 +21162,7 @@ MonoBehaviour:
   isDefaultStartingPoint: 1
   identifier: haut 1 droite 2 (point de sauvegarde)
   direction: left
+  rb2d: {fileID: 1191022790}
 --- !u!1 &379212971 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 127262, guid: 5e056a8fa143ca847a44488ec3615fe5, type: 2}
@@ -46118,11 +46119,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 413820, guid: 116a4fb8357e21b42b960d735214f6f2, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -3.4634771
+      value: -3.5
       objectReference: {fileID: 0}
     - target: {fileID: 413820, guid: 116a4fb8357e21b42b960d735214f6f2, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -0.17045474
+      value: -0.19
       objectReference: {fileID: 0}
     - target: {fileID: 413820, guid: 116a4fb8357e21b42b960d735214f6f2, type: 2}
       propertyPath: m_LocalPosition.z
@@ -46591,11 +46592,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 413820, guid: 116a4fb8357e21b42b960d735214f6f2, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -0.4800129
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: 413820, guid: 116a4fb8357e21b42b960d735214f6f2, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -0.23005605
+      value: -0.2
       objectReference: {fileID: 0}
     - target: {fileID: 413820, guid: 116a4fb8357e21b42b960d735214f6f2, type: 2}
       propertyPath: m_LocalPosition.z
@@ -70997,6 +70998,11 @@ GameObject:
   m_PrefabParentObject: {fileID: 1484354541911994, guid: ab112fc515f88d54abc0b67f666b6b61,
     type: 2}
   m_PrefabInternal: {fileID: 821972226}
+--- !u!50 &1191022790 stripped
+Rigidbody2D:
+  m_PrefabParentObject: {fileID: 50202305021350852, guid: ab112fc515f88d54abc0b67f666b6b61,
+    type: 2}
+  m_PrefabInternal: {fileID: 821972226}
 --- !u!1 &1192803727
 GameObject:
   m_ObjectHideFlags: 0
@@ -83114,6 +83120,7 @@ MonoBehaviour:
   isDefaultStartingPoint: 1
   identifier: haut 1
   direction: right
+  rb2d: {fileID: 1191022790}
 --- !u!1 &1404250362
 GameObject:
   m_ObjectHideFlags: 0

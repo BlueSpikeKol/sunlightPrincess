@@ -21048,6 +21048,11 @@ Prefab:
     - {fileID: 0}
   m_ParentPrefab: {fileID: 100100000, guid: ab112fc515f88d54abc0b67f666b6b61, type: 2}
   m_IsPrefabParent: 0
+--- !u!50 &1057844327 stripped
+Rigidbody2D:
+  m_PrefabParentObject: {fileID: 50202305021350852, guid: ab112fc515f88d54abc0b67f666b6b61,
+    type: 2}
+  m_PrefabInternal: {fileID: 1057844326}
 --- !u!1 &1060175584
 GameObject:
   m_ObjectHideFlags: 0
@@ -26255,6 +26260,7 @@ MonoBehaviour:
   isDefaultStartingPoint: 1
   identifier: haut 1 droite 1
   direction: right
+  rb2d: {fileID: 1057844327}
 --- !u!1 &1407718185
 GameObject:
   m_ObjectHideFlags: 0
@@ -31595,6 +31601,7 @@ MonoBehaviour:
   isDefaultStartingPoint: 1
   identifier: haut 1 droite 3
   direction: left
+  rb2d: {fileID: 1057844327}
 --- !u!1 &1797485447
 GameObject:
   m_ObjectHideFlags: 0

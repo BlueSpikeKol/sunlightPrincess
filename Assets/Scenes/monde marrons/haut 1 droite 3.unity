@@ -24522,6 +24522,11 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ab112fc515f88d54abc0b67f666b6b61, type: 2}
   m_IsPrefabParent: 0
+--- !u!50 &1020584655 stripped
+Rigidbody2D:
+  m_PrefabParentObject: {fileID: 50202305021350852, guid: ab112fc515f88d54abc0b67f666b6b61,
+    type: 2}
+  m_PrefabInternal: {fileID: 1020584654}
 --- !u!1 &1033122631
 GameObject:
   m_ObjectHideFlags: 0
@@ -32574,6 +32579,7 @@ MonoBehaviour:
   isDefaultStartingPoint: 1
   identifier: haut 1 droite 2 (point de sauvegarde)
   direction: right
+  rb2d: {fileID: 1020584655}
 --- !u!1001 &1413526905
 Prefab:
   m_ObjectHideFlags: 0
@@ -50542,6 +50548,7 @@ MonoBehaviour:
   isDefaultStartingPoint: 1
   identifier: 
   direction: up right
+  rb2d: {fileID: 1020584655}
 --- !u!1 &2142756710
 GameObject:
   m_ObjectHideFlags: 0

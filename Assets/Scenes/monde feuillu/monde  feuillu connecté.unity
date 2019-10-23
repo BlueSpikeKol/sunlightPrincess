@@ -27357,6 +27357,7 @@ MonoBehaviour:
   isDefaultStartingPoint: 1
   identifier: partie 1(droite)
   direction: left
+  rb2d: {fileID: 1372218560}
 --- !u!1 &689450592
 GameObject:
   m_ObjectHideFlags: 0
@@ -37685,6 +37686,7 @@ MonoBehaviour:
   isDefaultStartingPoint: 1
   identifier: partie 1(gauche)
   direction: right
+  rb2d: {fileID: 1372218560}
 --- !u!4 &987533978 stripped
 Transform:
   m_PrefabParentObject: {fileID: 413820, guid: 116a4fb8357e21b42b960d735214f6f2, type: 2}
@@ -53021,6 +53023,11 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ab112fc515f88d54abc0b67f666b6b61, type: 2}
   m_IsPrefabParent: 0
+--- !u!50 &1372218560 stripped
+Rigidbody2D:
+  m_PrefabParentObject: {fileID: 50202305021350852, guid: ab112fc515f88d54abc0b67f666b6b61,
+    type: 2}
+  m_PrefabInternal: {fileID: 1372218559}
 --- !u!1 &1372753298
 GameObject:
   m_ObjectHideFlags: 0
@@ -53947,6 +53954,7 @@ MonoBehaviour:
   isDefaultStartingPoint: 1
   identifier: tournesol royaume
   direction: up
+  rb2d: {fileID: 1372218560}
 --- !u!1 &1403031690
 GameObject:
   m_ObjectHideFlags: 0

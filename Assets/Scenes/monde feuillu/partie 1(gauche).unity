@@ -39359,6 +39359,11 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 614918402}
   m_Script: {fileID: 11500000, guid: 7c206db417c9c40169cb5fb0aa70038f, type: 3}
+--- !u!50 &614918404 stripped
+Rigidbody2D:
+  m_PrefabParentObject: {fileID: 50202305021350852, guid: ab112fc515f88d54abc0b67f666b6b61,
+    type: 2}
+  m_PrefabInternal: {fileID: 614918402}
 --- !u!1 &616456429
 GameObject:
   m_ObjectHideFlags: 0
@@ -84735,6 +84740,7 @@ MonoBehaviour:
   isDefaultStartingPoint: 1
   identifier: "monde  feuillu connect\xE9"
   direction: left
+  rb2d: {fileID: 614918404}
 --- !u!1 &1401082304
 GameObject:
   m_ObjectHideFlags: 0

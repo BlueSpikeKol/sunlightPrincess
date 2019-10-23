@@ -21,7 +21,14 @@ namespace Assets.Scripts
         private string up="up";
         private string nul="null";
 
-        private Vector2 movement;
+        readonly Dictionary<string, Vector2> directions = new Dictionary<string, Vector2>
+        {
+            {"left", new Vector2(-5,0)},
+            {"right", new Vector2(5,0)},
+            {"null", new Vector2(0,0)},
+        };
+
+        
 
         private float interval;
 
@@ -38,7 +45,6 @@ namespace Assets.Scripts
             {
                 if (r.identifier == respawnPointName)
                 {
-                    var direction = r.direction;
                     Debug.Log("direction: " + direction);
                     this.SetActive();
                 }
@@ -52,29 +58,25 @@ namespace Assets.Scripts
 
         private IEnumerator DoMove()
         {
+            try
+            {
+                rb2d.velocity = directions[direction];
+            }
+            catch (KeyNotFoundException e)
+            {
+                Console.WriteLine("Direction not found was: " + direction);
+            }
+
             while (true)
             {
-                movement = new Vector2 {x = 0};
-
-                if (direction == left)
-                {
-                    movement.x = -5;
-                }
-                else if (direction == right)
-                {
-                    movement.x = 5;
-                }
-
                 if (!isMoving)
                 {
-                    rb2d.velocity = movement;
                     isMoving = true;
                     yield return new WaitForSeconds(interval);
                 }
                 else
                 {
-                    movement.x = 0.0f;
-                    rb2d.velocity = movement;
+                    rb2d.velocity = new Vector2(0,0);
                     break;
                 }
             }
