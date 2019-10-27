@@ -14,12 +14,7 @@ namespace Assets.Scripts
 
         public Rigidbody2D rb2d;
 
-        private bool isMoving;
-        private string left="left";
-        private string right="right";
-        private string down="down";
-        private string up="up";
-        private string nul="null";
+        private bool isMoving = false;
 
         readonly Dictionary<string, Vector2> directions = new Dictionary<string, Vector2>
         {
@@ -27,25 +22,21 @@ namespace Assets.Scripts
             {"right", new Vector2(5,0)},
             {"null", new Vector2(0,0)},
         };
-
         
 
-        private float interval;
+        private float interval = 1.0f ;
 
         void Awake()
         {
             LevelManager.Instance.Respawned +=
                 (sender, args) => { respawnPointName = args.RespawnPoint; };
 
-            interval = 1.0f;
-            isMoving = false;
-
             RespawnPointPerso[] respawnPoints = GameObject.FindObjectsOfType<RespawnPointPerso>();
             foreach (RespawnPointPerso r in respawnPoints)
             {
                 if (r.identifier == respawnPointName)
                 {
-                    Debug.Log("direction: " + direction);
+                    Debug.Log("Respawn Perso.respawnPointName: " + respawnPointName);
                     this.SetActive();
                 }
             }
@@ -53,13 +44,19 @@ namespace Assets.Scripts
 
         void Start()
         {
+            Debug.Log("In Respawn Perso.Start...");
+
             StartCoroutine(DoMove());
         }
 
         private IEnumerator DoMove()
         {
+            Debug.Log("In Respawn Perso.DoMove...");
+
             try
             {
+                Debug.Log("In Respawn Perso.direction is:  " + direction);
+
                 rb2d.velocity = directions[direction];
             }
             catch (KeyNotFoundException e)
