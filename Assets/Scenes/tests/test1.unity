@@ -253,7 +253,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010868810644, guid: e3e892ca8b1ca6c4eb3da52685bef40c, type: 2}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 114000011602924210, guid: e3e892ca8b1ca6c4eb3da52685bef40c,
         type: 2}
@@ -1286,7 +1286,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 492346, guid: 5e056a8fa143ca847a44488ec3615fe5, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 11445766, guid: 5e056a8fa143ca847a44488ec3615fe5, type: 2}
       propertyPath: CameraTargets.Array.data[0].TargetTransform
@@ -1675,8 +1675,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDefaultStartingPoint: 0
-  identifier: 
-  direction: 
+  identifier: testdroite
+  direction: left
   rb2d: {fileID: 660936737}
 --- !u!1 &1191015033
 GameObject:
@@ -1893,7 +1893,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4000012713317194, guid: 58d039d64f406644b97f3b7f84f957f4, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -5
+      value: -6.35
       objectReference: {fileID: 0}
     - target: {fileID: 4000012713317194, guid: 58d039d64f406644b97f3b7f84f957f4, type: 2}
       propertyPath: m_LocalPosition.y
@@ -1944,8 +1944,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDefaultStartingPoint: 0
-  identifier: 
-  direction: 
+  identifier: testgauche
+  direction: right
   rb2d: {fileID: 660936737}
 --- !u!1001 &1422651589
 Prefab:

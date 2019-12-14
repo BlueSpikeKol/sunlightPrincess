@@ -878,7 +878,7 @@ MonoBehaviour:
     extent: {x: 0.3488884, y: 0.72805333}
     layerMask: 0
   detectLaddersByTag: 0
-  ladderLayerOrTagName: Ladders
+  ladderLayerOrTagName: 
   input: {fileID: 0}
   detectAllWalls: 0
   detectWallsByTag: 0
