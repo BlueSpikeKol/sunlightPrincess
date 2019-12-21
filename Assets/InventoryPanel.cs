@@ -12,36 +12,18 @@ public class InventoryPanel : MonoBehaviour
 
     [SerializeField] private GameObject pinky;
 
-    void Fill(ItemManager itemManager)
-    {
-        // todo: rendre générique
-        Text coinSlotText = coinSlot.GetComponentInChildren<Text>();
-        ItemData items = (ItemData) itemManager.SaveData;
-        int coinsCount = items["Coin"];
-        coinSlotText.text = "Coin: " + coinsCount;
-
-
-
-    }
-
-    // Use this for initialization
-    void Start ()
-    {
-        
-
-		
-	}
-
     void OnEnable()
     {
         var itemManager = pinky.gameObject.GetComponent<ItemManager>();
-        Fill(itemManager);
-    }
+        var itemData= (ItemData) itemManager.SaveData;
 
-    // Update is called once per frame
-    void Update () {
-       
+        var slotManagers = GetComponentsInChildren<SlotManager>();
 
+        for (int i=0; i < itemData.stackableItemCountsIds.Count; i++)
+        {
+            var textComponent = slotManagers[i].GetComponentInChildren<Text>();
+            slotManagers[i].Fill(itemData, i, textComponent);
+        }
     }
 }
 

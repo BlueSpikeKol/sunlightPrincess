@@ -5097,6 +5097,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 155531247}
+  - component: {fileID: 155531248}
   m_Layer: 5
   m_Name: ArtifactSlot
   m_TagString: Untagged
@@ -5124,6 +5125,17 @@ RectTransform:
   m_AnchoredPosition: {x: 0.000061035156, y: -296}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &155531248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 155531246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d41d64f44f36b5d4fbfcfdad2b38edb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &156897062
 GameObject:
   m_ObjectHideFlags: 0
@@ -51777,6 +51789,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1429434820}
+  - component: {fileID: 1429434821}
   m_Layer: 5
   m_Name: GemSlot
   m_TagString: Untagged
@@ -51804,6 +51817,17 @@ RectTransform:
   m_AnchoredPosition: {x: 0.000061035156, y: -147}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1429434821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1429434819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d41d64f44f36b5d4fbfcfdad2b38edb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1430480680
 GameObject:
   m_ObjectHideFlags: 0
@@ -61333,8 +61357,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinSlot: {fileID: 1978255052}
-  gemSlot: {fileID: 1429434819}
-  artifactSlot: {fileID: 155531246}
+  gemSlot: {fileID: 0}
+  artifactSlot: {fileID: 0}
   pinky: {fileID: 1351071000}
 --- !u!1 &1672860063
 GameObject:
@@ -73605,6 +73629,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1978255053}
+  - component: {fileID: 1978255054}
   m_Layer: 5
   m_Name: CoinSlot
   m_TagString: Untagged
@@ -73632,6 +73657,17 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1978255054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1978255052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d41d64f44f36b5d4fbfcfdad2b38edb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1980305348
 GameObject:
   m_ObjectHideFlags: 0
